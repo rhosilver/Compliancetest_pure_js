@@ -1,5 +1,5 @@
 sdkversion: "3.5.0"
-name: "compliancetest_js_test"
+name: "pure-js_compliancetest_js_test"
 app_type: "rhoelements"
 version: "1.0"
 vendor: "rhomobile"
@@ -20,9 +20,9 @@ iphone:
   sdk: iphonesimulator8.1
   provisionprofile: 
   codesignidentity: 
-  entitlements: 
-  BundleIdentifier: "com.rhomobile.compliancetestjs"
-  BundleURLScheme: "compliancetestjs"
+  entitlements: ./production/Entitlements.plist
+  BundleIdentifier: "com.rhomobile.purejs-compliancetest"
+  BundleURLScheme: "purejs-compliancetest"
   extensions:
    - rhoconnect-client
    - audiocapture
